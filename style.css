@@ -1,0 +1,50 @@
+
+/*{
+  /border: 2px solid red;
+}
+*/
+
+#grid-container{
+  display:grid;
+  grid-template-rows: 75px auto auto;
+}
+
+nav{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+nav a{
+  border: 1px solid gray;
+  margin: 0px 15px 0px 15px;
+}
+
+h1{
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  border: 1px solid red;
+}
+
+h1, h2, a, p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+  font-weight: 800;
+  text-decoration: none;
+}
+
+#blog-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+
+#blog1, #blog2, #blog3{
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+}
