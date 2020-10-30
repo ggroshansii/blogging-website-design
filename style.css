@@ -7,24 +7,28 @@
 #grid-container{
   display:grid;
   grid-template-rows: auto auto auto;
+
 }
 
 nav{
-  border: 1px solid red;
   display: flex;
   justify-content: center;
+  margin: 10px 0px 12px 0px;
 }
 
 nav a{
-  border: 1px solid gray;
+
   margin: 0px 15px 0px 15px;
+  color: rgb(51, 143, 248);
 }
 
-h1{
+header h1{
   display: flex;
-  justify-content: flex-start;
+  font-weight: 200;
+  justify-content: center;
+  padding: 30px 20px 20px 20px;
   margin: auto;
-  border: 1px solid red;
+
 }
 
 h1, h2, a, p{
@@ -40,19 +44,39 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
+
 }
 
 #blog1, #blog2, #blog3, #blog4, #blog5, #blog6{
-  border: 1px solid red;
   width: 95%;
+  min-height: 200px;
+  background-color:#e0e0e0;
+}
+
+#blog1 img, #blog3 img, #blog5 img {
+  width: 200px;
   height: 200px;
+  padding: 0px 20px 20px 20px;
+  float: left;
+}
+
+#blog2 img, #blog4 img, #blog6 img{
+  width: 200px;
+  height: 200px;
+  padding: 0px 20px 20px 20px;
+  float: right;
 }
 
 #blog1 h2, #blog2 h2, #blog3 h2, #blog4 h2, #blog5 h2, #blog6 h2{
   text-align: center;
+  font-weight: 550;
 }
 
 .blogcard{
   margin: 10px;
+}
+
+footer{
+  background-color: #4b4b4b;
+  color: white;
 }
