@@ -1,0 +1,154 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #cecece;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+}
+
+#heading1, #heading2, #heading3{
+    background-color: #F1B24A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section{
+    padding: 12px;
+}
+
+#about{ 
+    width: 32%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 12px;
+
+}
+
+#about p{
+    font-style: italic;
+}
+
+#archives{
+    width: 32%;
+    height: 100%;
+    margin: 0px;
+    background-color: #f2f2f2;
+    text-align: left;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 12px;
+    font-weight: 800;
+}
+
+#media{
+    width: 32%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    background-color: #f2f2f2;
+    text-align: left;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 12px;
+}
+
+#about, #archives, #media{
+    background-color: #6d4d81;
+}
+
+#media a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#archives a{
+    text-decoration: none;
+}
+
+#archives a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #6d4d81;
+}
+
+h4{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;;
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#image1{
+    width: 400px;
+    height: 300px; 
+    float: right;
+    padding: 20px;
+}
+#image2{
+    width: 400px;
+    height: 250px; 
+    float: left;
+    padding: 20px; 
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+      } #flex-container{
+          flex-direction: column; 
+          justify-content: flex-start;
+          height: 100%;
+      } #archives{
+          width: 100%;
+          height: auto;
+      } #about{
+          width: 100%;
+          height: auto;
+      } #media{
+          width: 100%;
+          height: auto;
+      }
+}
+@media (min-width: 1201px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+      } #flex-container{
+          flex-direction: column; 
+          justify-content: flex-start;
+          height: 100%;
+      } #archives{
+          width: 100%;
+          height: auto;
+      } #about{
+          width: 100%;
+          height: auto;
+      } #media{
+          width: 100%;
+          height: auto;
+      }
+}
