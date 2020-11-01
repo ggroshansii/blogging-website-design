@@ -5,7 +5,7 @@
 
 
 html{
-  background-color:#347B98;
+  background-color:#cde9ea;
 }
 
 #grid-container{
@@ -23,12 +23,12 @@ nav{
 nav a{
 
   margin: 0px 15px 0px 15px;
-  color:  #092834;
+  color: black;
 }
 
 header h1{
   display: flex;
-  color: #F0F7D4;
+  color: black;
   font-weight: 700;
   justify-content: center;
   padding: 30px 20px 20px 20px;
@@ -60,10 +60,17 @@ a{
   width: 450px;
   min-height: 200px;
   padding: 15px;
-  background-color:#F0F7D4;
-  border: 4px solid #66B032;
+  background-color: #cddbea;
+  border: 3px solid #f2f2f2;
   border-radius: 15px;
 
+}
+
+.button{
+  width: 100px;
+  height: 30px;
+  background-color: #cdeadd;
+  border-radius: 5px;
 }
 
 #blog1 img, #blog3 img, #blog5 img {
