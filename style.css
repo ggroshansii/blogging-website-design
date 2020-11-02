@@ -66,6 +66,10 @@ a{
 
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 .button{
   width: 100px;
   height: 30px;
