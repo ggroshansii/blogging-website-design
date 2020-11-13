@@ -62,6 +62,18 @@ hr {
   font-size: 15px;
 }
 
+.heading h3 {
+  font-family: "Covered By Your Grace";
+  font-weight: 100;
+  font-size: 18pt;
+}
+
+.heading h2{
+    font-family: "Covered By Your Grace";
+    font-weight: 100;
+    font-size: 24pt;
+}
+
 #about {
   width: 32%;
   height: auto;
@@ -78,7 +90,7 @@ hr {
 
 #archives {
   width: 32%;
-  height: 100%;
+  height: auto;
   margin: 0px;
   font-size: 14px;
   background-color: #f2f2f2;
@@ -91,13 +103,14 @@ hr {
 
 #media {
   width: 32%;
-  height: 100%;
+  height: auto;
   margin: 0px;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 12px 0px;
   background-color: #f2f2f2;
   text-align: left;
   border: 2px solid white;
   border-radius: 12px;
+  
 }
 
 #about,
@@ -112,13 +125,13 @@ hr {
   text-align: center;
 }
 
-#about h4,
-#archives h4,
-#media h4 {
-  font-size: 16px;
+aside h4 {
+  font-family: "Covered By Your Grace";
+  font-size: 18pt;
   font-weight: bold;
   text-decoration: underline;
 }
+
 #media a {
   display: block;
   text-align: center;
@@ -131,7 +144,6 @@ hr {
   color: gray;
 
   color: white;
-
 }
 
 #archives a:hover {
@@ -173,7 +185,7 @@ ul {
   border-radius: 40px;
 }
 
-@media (min-width: 800px) and (max-width: 1199px) {
+@media (min-width: 700px) and (max-width: 999px) {
   #grid-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -202,11 +214,12 @@ ul {
     float: left;
   }
   html {
-    padding: 0px 100px 0px 100px;
-    margin: 0px 20px 0px 20px;
+
+    margin: 0px 100px 0px 100px;
   }
   section {
     margin: 0px 15px 0px 0px;
+    height: auto;
   }
   header p {
     color: white;
@@ -218,7 +231,7 @@ ul {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   #grid-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -251,6 +264,7 @@ ul {
   }
   section {
     margin: 0px 15px 0px 0px;
+    height: auto;
   }
   #about,
   #archives,
