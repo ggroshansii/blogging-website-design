@@ -286,4 +286,12 @@ ul {
   header p {
     color: white;
   }
+  p{
+    font-size: 11pt;
+  }
+  #about p,
+  #archives a,
+  #media a{
+    font-size: 12pt;
+  }
 }
