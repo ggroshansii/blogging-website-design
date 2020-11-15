@@ -15,6 +15,7 @@ header{
   border: 2px solid white;
   border-radius: 12px;
   margin: 0px 0px 15px 0px;
+  padding: 30px 20px 20px 20px;
 }
 
 
@@ -35,7 +36,7 @@ nav a{
   font-family: "Covered By Your Grace";
   font-size: 20pt;
   border: 2px solid white;
-  padding: 1px 10px 1px 10px;
+  padding: 1px 5px 1px 5px;
   margin: 0px 15px 0px 15px;
   color: white;
   background-color: rgba(56, 34, 15, .7);
@@ -50,11 +51,17 @@ header h1{
   font-size: 48pt;
   font-weight: 700;
   justify-content: center;
-  padding: 30px 20px 20px 20px;
+  padding: 5px;
+  width: auto;
   margin: auto;
+  
 
 }
+header h1:hover{
+  color: #38220f;
+  letter-spacing: 15px;
 
+}
 
 
 a{
@@ -70,50 +77,74 @@ a{
 
 }
 
-#blog1, #blog2, #blog3, #blog4, #blog5, #blog6{
+.blogcard{
   width: 450px;
   min-height: 200px;
-  padding: 15px;
+  padding: 5px 15px 15px 15px;
   background-color: #dbc1ac;
-  border: 3px solid #38220f;
-
+  border: 3px solid #f2f2f2;
   border-radius: 15px;
 
 }
 
+
+
 p{
   color: #38220f;
+  font-family: "Open Sans";
+  font-size: 11pt;
 }
 
-a:hover{
+nav a:hover{
   text-decoration: underline;
+  background-color: #dbc1ac;
+  color: #38220f;
+
 }
 
-.button{
-  width: 100px;
-  height: 30px;
-  background-color: #38220f;
-  color: white;
-  border-radius: 5px;
+.myButton {
+	box-shadow:inset 0px 1px 0px -50px #a6827e;
+	background:linear-gradient(to bottom, #bf9973 5%, #2b1a08 100%);
+	background-color:#bf9973;
+	border-radius:9px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7f7f7;
+	font-family:Courier New;
+	font-size:12px;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:-50px 2px 32px #4d3534;
 }
+.myButton:hover {
+	background:linear-gradient(to bottom, #2b1a08 5%, #bf9973 100%);
+	background-color:#2b1a08;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 
 #blog1 img, #blog3 img, #blog5 img {
   max-width: 200px;
   max-height: 200px;
-  padding: 0px 20px 20px 20px;
+  margin: 10px;
   float: left;
 }
 
 #blog2 img, #blog4 img, #blog6 img{
   width: 200px;
   height: 200px;
-  padding: 0px 20px 20px 20px;
+  margin: 10px;
   float: right;
 }
 
 img{
-  border: 2px solid red;
-  border-radius: 20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
   background-position:center;
   background-size:cover;
 }
@@ -131,16 +162,27 @@ img{
   margin: 10px;
 }
 
+.blogcard:hover{
+  background-color: #bf9973ce; 
+  
+}
+
+
 footer{
   width: 100%;
   margin: 0px;
-  background-color: #38220f;
-  color:white;
+  background-image: linear-gradient(#bf9973, rgba(56, 34, 15));
+  color: white;
   padding: 10px;
-  border: 5px solid #dbc1ac;
+  border: 2px solid #dbc1ac;
   border-radius: 5px;
 }
 
+footer p{
+  font-family: "Covered By Your Grace";
+  font-size: 18px;
+  color: white;
+}
 @media (min-width: 800px) and (max-width: 1200px){
   #blog1, #blog2, #blog3, #blog4, #blog5, #blog6{
     width: 400px;
