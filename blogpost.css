@@ -17,8 +17,8 @@ a {
 }
 
 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 100;
+  font-family: "Open Sans";
+  font-size: 10pt;
 }
 
 header {
@@ -40,9 +40,15 @@ header h1 {
   font-size: 64px;
 }
 
-header p {
-  color: black;
+header h1:hover{
+  color: #38220f;
+  letter-spacing: 15px;
 
+}
+
+header p {
+  font-family: "Open Sans";
+  color: #38220f;
   font-size: 20px;
 }
 
