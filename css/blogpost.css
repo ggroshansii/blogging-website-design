@@ -31,13 +31,14 @@ header {
   text-align: center;
   color: white;
   margin: 0px 0px 15px 0px;
+  padding: 10px;
   font-weight: bold;
   border-radius: 15px;
 }
 
 header h1 {
   font-family: "Covered By Your Grace";
-  font-size: 64px;
+  font-size: 58px;
 }
 
 header h1:hover{
@@ -191,6 +192,17 @@ ul {
   padding: 20px;
   border-radius: 40px;
   overflow: hidden;
+}
+
+figure{
+  border: 2px solid red;
+}
+
+#image1 figcaption{
+
+  font-size: 10pt;
+  float: right;
+
 }
 
 @media (min-width: 700px) and (max-width: 999px) {
